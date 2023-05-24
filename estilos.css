@@ -1,0 +1,131 @@
+
+/* Formato de toda la letra */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+}
+/* La orientacion del encabezado */
+header{
+    display: block;
+    min-height: 50px;
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+/* Decoracion de los indice */
+a{
+   text-decoration: none;
+   color: black;
+   text-decoration-style: dotted ;
+
+}
+/* Orientacion del logo */
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.descripcion{
+    text-decoration-style: dotted ;
+    text-align: center;
+    font-size: 30px;
+    width: 700px; /* Establece el ancho del rectángulo */
+    height: 200px; /* Establece la altura del rectángulo */
+    padding: 20px; /* Agrega un relleno alrededor del contenido */
+    margin:  auto;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.pie {
+    width: 100%; /* Establece el ancho del rectángulo */
+    height: 200px; /* Establece la altura del rectángulo */
+    padding: 20px; /* Agrega un relleno alrededor del contenido */
+    background-color: rgb(35, 0, 213);
+     padding: 20%;
+    color: white;
+    padding: 20px;
+    margin-top: 200px;
+  }
+  
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    justify-content: flex-end; /* Alinea los elementos en el extremo derecho */
+    padding: 0px;
+    text-align: center;
+    padding-left: 10px; 
+  }
+  
+  .redes img {
+    display: flex;
+    max-width: 1000%;
+    height: 40px; 
+     
+  }
+
+
+
+  div a{
+    font-weight: 600;
+    padding-left: 100px;
+
+  }
+
+/* El formato del logo */
+.logo img{
+   display: block;
+
+    height: 120px;
+    margin: auto ;
+    border-radius: 10%;
+}
+/* Formato de los indices */
+nav a {
+    
+    
+    font-weight: 600;
+    padding-left: 100px; 
+    font-size: 20px;
+}
+.rectangulo  {
+    background-image: url("C:/Users/javie/Desktop/Carrera/6to/Programacion web/HTML/Blog_de_musica/Imagenes/dj.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+   /* background-repeat: no-repeat; /*Evita que se repita la imagen */
+    width: 1290px; /* Establece el ancho del rectángulo */
+    height: 600px; /* Establece la altura del rectángulo */
+    border: 2px solid black; /* Agrega un borde al rectángulo */
+    padding: 20px; /* Agrega un relleno alrededor del contenido */
+    margin: auto ; /* Centra el rectángulo en la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.rectangulo h1:hover{
+    color: rgb(129, 28, 183);
+}
+
+nav a:hover{
+    color: lightslategray;
+
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    /* Estilos para dispositivos con ancho máximo de 600px */
+    .container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
